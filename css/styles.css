@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background {
+	height: 100vh;
+	width: 100vw;
+	background: url('../img/background-img.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bird {
+	height: 90px;
+	width: 100px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+
+.pipe-sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background: radial-gradient(lightgreen 50%, green);
+	border: 3px solid black;
+	border-radius: 7px;
+}
+
+.message {
+	position: absolute;
+	z-index: 10;
+	color: black;
+	top: 35%;
+	left: 50%;
+	font-size: 2.8em;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+}
+
+.message img {
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+.message p {
+	font-size: 0.70em;
+}
+
+.messageStyle {
+	background: white;
+	padding: 20px 30px;
+	box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+	border-radius: 40px;
+}
+
+.score {
+	position: fixed;
+	z-index: 10;
+	height: 8vh;
+	font-size: 8vh;
+	font-weight: 100;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	top: 10px;
+	left: 10px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-value {
+	color: gold;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1080px) {
+	.message {
+		font-size: 50px;
+		top: 50%;
+		white-space: nowrap;
+	}
+
+	.score {
+		font-size: 8vh;
+	}
+
+	.bird {
+		width: 120px;
+		height: 90px;
+	}
+
+	.pipe-sprite {
+		width: 14vw;
+	}
+}
