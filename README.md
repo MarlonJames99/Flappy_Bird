@@ -10,6 +10,8 @@ This is a remake of the famous mobile game Flappy Bird, originally release in 20
 ### How to play:
 Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves persistently to the right. The player is tasked with navigating Faby through pairs of pipes that have equally sized gaps placed at random heights. Faby automatically descends and only ascends when the player presses ArrowUp on the keyboard. Each successful pass through a pair of pipes awards the player one point. Colliding with a pipe or the ground ends the gameplay.
 
+### Game link: https://marlonjames99.github.io/Flappy_Bird/
+
 ## Tecnologies:
 <div style="display: inline_block">
 <img align="center" alt="HTML logo" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
